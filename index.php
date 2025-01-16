@@ -9,6 +9,7 @@ include ('app/controllers/categorias/listado_de_categoria.php');
 include ('app/controllers/almacen/listado_de_productos.php');
 include ('app/controllers/proveedores/listado_de_proveedores.php');
 include ('app/controllers/clientes/listado_de_clientes.php');
+include ('app/controllers/servicios/listado_de_servicios.php');
 ?>
 
 <!-- Content Wrapper. Contains page content -->
@@ -251,20 +252,20 @@ include ('app/controllers/clientes/listado_de_clientes.php');
                     <div class="small-box" style="background-Color: #6A90CA  ; color: #000;">
                         <div class="inner">
                             <?php
-                            $contador_de_proveedores = 0;
-                            foreach ($proveedores_datos as $proveedores_dato) {
-                                $contador_de_proveedores++;
+                            $contador_de_servicios = 0;
+                            foreach ($servicios_datos as $servicios_dato) {
+                                $contador_de_servicios++;
                             }
                             ?>
-                            <h3><?php echo $contador_de_proveedores; ?></h3>
+                            <h3><?php echo $contador_de_servicios; ?></h3>
                             <p>Servicios Registrados</p>
                         </div>
-                        <a href="<?php echo $URL; ?>/proveedores">
+                        <a href="<?php echo $URL; ?>/servicios">
                             <div class="icon">
                                 <i class="fas fa-car" style="color: #000;"></i> <!-- Ícono en NEGRO para mejor visibilidad -->
                             </div>
                         </a>
-                        <a href="<?php echo $URL; ?>/proveedores" class="small-box-footer" style="color: #000;">
+                        <a href="<?php echo $URL; ?>/servicios" class="small-box-footer" style="color: #000;">
                             Más detalle <i class="fas fa-arrow-circle-right"></i>
                         </a>
                     </div>

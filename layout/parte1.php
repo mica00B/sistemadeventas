@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
+
 <html lang="es">
 <head>
     <meta charset="utf-8">
@@ -247,7 +244,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
 
-                    <li class="nav-item ">
+            <li class="nav-item ">
                         <a href="#" class="nav-link active">
                             <i class="nav-icon fas fa-car"></i>
                             <p>
@@ -257,15 +254,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="<?php echo $URL;?>/compras" class="nav-link">
+                                <a href="<?php echo $URL;?>/servicios" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de compras</p>
+                                    <p>Listado de Servicios</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="<?php echo $URL;?>/compras/create.php" class="nav-link">
+                                <a href="<?php echo $URL;?>/servicios/create.php" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Creación de compra</p>
+                                    <p>Creación de Servicios</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="<?php echo $URL;?>/almacen/create.php" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Facturación de Servicios</p>
                                 </a>
                             </li>
                         </ul>
@@ -315,23 +318,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
 
-                    <li class="nav-item ">
+                    <!--
+                        <li class="nav-item ">
                         <a href="#" class="nav-link active">
                             <i class="nav-icon fas fa-cogs"></i>
                             <p>
-                                Configuración
-                                <i class="right fas fa-angle-left"></i>
+                            Configuración
+                            <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="<?php echo $URL;?>/proveedores" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de proveedores</p>
-                                </a>
+                            <a href="<?php echo $URL;?>/proveedores" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Listado de proveedores</p>
+                            </a>
                             </li>
                         </ul>
-                    </li>
+                        </li>
+                        -->
+
 
 
 

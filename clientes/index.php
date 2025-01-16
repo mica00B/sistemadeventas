@@ -69,7 +69,7 @@ include ('../app/controllers/clientes/listado_de_clientes.php');
                                         <td><center><?php echo $contador = $contador + 1;?></center></td>
                                         <td><?php echo $nombre_cliente;?></td>
                                         <td>
-                                            <a href="https://wa.me/591<?php echo $clientes_dato['celular'];?>" target="_blank" class="btn btn-success">
+                                            <a href="https://wa.me/+595<?php echo $clientes_dato['celular'];?>" target="_blank" class="btn btn-success">
                                                 <i class="fa fa-phone"></i>
                                                 <?php echo $clientes_dato['celular'];?>
                                             </a>

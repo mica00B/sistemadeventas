@@ -69,7 +69,7 @@ include ('../app/controllers/proveedores/listado_de_proveedores.php');
                                         <td><center><?php echo $contador = $contador + 1;?></center></td>
                                         <td><?php echo $nombre_proveedor;?></td>
                                         <td>
-                                            <a href="https://wa.me/591<?php echo $proveedores_dato['celular'];?>" target="_blank" class="btn btn-success">
+                                            <a href="https://wa.me/+595<?php echo $proveedores_dato['celular'];?>" target="_blank" class="btn btn-success">
                                                 <i class="fa fa-phone"></i>
                                                 <?php echo $proveedores_dato['celular'];?>
                                             </a>
